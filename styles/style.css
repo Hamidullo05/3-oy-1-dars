@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+header {
+    
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 2px 3px #091E42;
+    
+
+}
+.header_link .header_img {
+    width: 184px;
+    height: 60px;
+    
+}
+.nav {
+    gap: 16px;
+    
+    margin-left: 622px;
+    margin-right: 40px;
+   
+}
+.nav-item {
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    
+}
+.nav-link1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #405741;
+    text-decoration: none;
+}
+.nav-link {
+    font-size: 16;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(73, 73, 97, 0.7);
+    text-decoration: none;
+}
+.nav_img {
+    width: 24px;
+    height: 24px;
+
+}
+.button {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header_button {
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.main__container {
+    margin-top: 5px;
+    width: 1440px;
+    height: 540px;
+    background-image: url("../images/pasta_photo.png");
+    
+}
+.main-title {
+    padding-top: 135px;
+    margin-bottom: 8px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 78px;
+    color: #121216;
+}
+.main-info {
+    font-size: 20ox;
+    font-weight: 400;
+    line-height: 30px;
+    color: #494961;
+    
+}
+.main-button {
+    margin-top: 56px;
+    padding: 12px 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #405741;
+    border: #405741 ;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.main-button:hover {
+    background-color: #000;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.colours {
+    width: 278px;
+    height: 160px;
+    text-align: center;
+    background-color: #FFEEF4;
+    padding-top: 13px;
+    border-radius: 8px;
+
+    
+}
+.colours-img {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 8px;
+}
+.text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+}
+.paraben {
+    width: 278px;
+    height: 160px;
+    text-align: center;
+    background-color: #E8FBFF;
+    padding-top: 13px;
+    border-radius: 8px;
+
+}
+.vegan {
+    width: 278px;
+    height: 160px;
+    text-align: center;
+    background-color:#E8FBFF;
+    padding-top: 13px;
+    border-radius: 8px;
+
+}
+.colours {
+    width: 278px;
+    height: 160px;
+    text-align: center;
+    background-color:#EFEFFE;
+    padding-top: 13px;
+    border-radius: 8px;
+
+}
+.infos {
+    display: flex;
+
+
+    justify-content: space-between;
+    
+}
+.wash {
+    display: flex;
+    background-color: #24aca1;
+    border-radius: 16px;
+}
+.img img {
+    width: 272px;
+    height: 247px;
+    background-image: url("../images/orqa_img.png");
+    background-position: -50px;
+}
+.infos-title {
+ padding-top: 21px;
+ padding-left: 19px;
+ font-size: 44px;
+ font-weight: 600;
+ line-height: 66px;
+ color: #FFF;
+}
+.infos-text {
+    color: #FFF;
+    width: 311px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-left: 19px;
+}
+.infos-button {
+    margin-left: 19px;
+    margin-top: 28px;
+    padding: 10px 43px;
+    background-color: #9ACB6B;
+    border:#9ACB6B ;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.infos-button:hover {
+    background-color: #89e930;
+}
+.infos1-title {
+    padding-top: 21px;
+    padding-left: 19px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    color: #121216;
+}
+.infos-text {
+    color:#121216 ;
+    width: 311px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-left: 19px;
+}
+.infos1-button {
+    margin-left: 19px;
+    margin-top: 28px;
+    padding: 10px 43px;
+    background-color: #405741;
+    border:#405741;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.infos1-button:hover {
+    background-color: #000;
+}
+
